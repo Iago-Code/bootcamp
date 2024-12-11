@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletor filho</title>
+</head>
+
+<body>
+    <div>
+        <p>Páragrafo 1 dentro da div</p>
+        <p>Páragrafo 2 dentro da div</p>
+        <span>
+            <p>Páragrafo 3 dento do span</p>
+        </span>
+    </div>
+
+    <p>Páragrafo 4 fora da div</p>
+    <p>Páragrafo 5 fora da div</p>
+</body>
+<style>
+   div  p {
+       background-color: lightgreen; 
+    }
+
+    div > p {
+        background-color: red;
+    }
+</style>
+</html>

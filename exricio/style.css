@@ -1,0 +1,42 @@
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #333;
+}
+h1 {
+    color: #00509e;
+}
+
+form {
+    background-color: #e8f0fe;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #00509e;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #003f7d;
+}
+
+a:hover {
+    color: #ff4500;
+    text-decoration: underline;
+}
+button:hover {
+    transform: scale(1.05);
+}

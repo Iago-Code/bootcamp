@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exibição de Dados</title>
+    <style>
+        /* Adicionando um estilo simples para melhor visualização */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            margin-bottom: 10px;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+        div {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Parte 1</h1>
+    <button onclick="exibirParte1()">Exibir Parte 1</button>
+    <div id="pessoas-lista"></div> <!-- Div onde os dados da parte 1 serão exibidos -->
+
+    <h1>Parte 2</h1>
+    <button onclick="exibirParte2()">Exibir Parte 2</button> <!-- Botão para parte 2 -->
+    <div id="media-idades"></div>
+    <div id="homem-mais-velho"></div>
+    <div id="maior-salario"></div> <!-- Div onde os dados da parte 2 serão exibidos -->
+
+    <!-- Conectando o arquivo JavaScript -->
+    <script src="src/script.js"></script>
+</body>
+</html>
