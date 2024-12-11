@@ -1,5 +1,5 @@
 * {
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
     margin: 0px;
 }
@@ -31,7 +31,7 @@ h2 {
     text-transform: uppercase;
     margin-bottom: 24px;
 
-    
+
 }
 
 
@@ -51,15 +51,15 @@ h2 {
 }
 
 .banner {
-    background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, 0.6)),
-    url('//assets/Imagens/banner.png');
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, 0.6)),
+        url('//assets/Imagens/banner.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
     padding-top: 60px;
     border-bottom: 1px solid #33A8DB80;
-     }
+}
 
 .banner .banner-content {
     color: white;
@@ -80,6 +80,7 @@ h2 {
     border-image-slice: 10;
     border-radius: 30px;
 }
+
 p {
     color: white;
 }
@@ -93,22 +94,38 @@ p {
     unicode-bidi: isolate;
 }
 
+
+section {
+    margin: 100px auto;
+}
+
+
+
+#course-content {
+    width: 800px;
+    text-align: center;
+}
+
 #course-content .modules-list .module span {
     color: #33A8DB;
 }
 
 #course-content .modules-list .module {
     color: white;
-    width: 500px;
-    margin: auto;
+    width: 100%;
+    /* Garante que os módulos ocupem a largura da lista */
+    margin: 0 auto 20px;
+    /* Centraliza e aplica espaçamento entre os módulos */
     border: 1px solid #33A8DB;
     background-color: #252525;
     padding: 16px;
     border-radius: 100px;
-    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
-
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    /* Centraliza o texto dentro de cada módulo */
 
 }
+
 div {
     display: block;
     unicode-bidi: isolate;
