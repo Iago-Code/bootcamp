@@ -36,9 +36,7 @@ h2 {
     text-transform: uppercase;
     margin-bottom: 24px;
 
-
 }
-
 
 .banner h1 {
     font-size: 2.5rem;
@@ -147,6 +145,12 @@ section {
     text-transform: lowercase;
     max-width: 250px;
     text-shadow: 3px 2px #33A8DB;
+}
+
+#professional-challenges {
+    text-align: center;
+    width: 800px;
+    
 }
 
 div {
