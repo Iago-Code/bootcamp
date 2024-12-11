@@ -22,6 +22,19 @@ h1 {
 
 }
 
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+
+    
+}
+
+
 .banner h1 {
     font-size: 2.5rem;
     font-weight: 900;
@@ -78,6 +91,23 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
+}
+
+#course-content .modules-list .module span {
+    color: #33A8DB;
+}
+
+#course-content .modules-list .module {
+    color: white;
+    width: 500px;
+    margin: auto;
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    padding: 16px;
+    border-radius: 100px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+
+
 }
 div {
     display: block;
