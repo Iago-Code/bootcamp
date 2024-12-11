@@ -150,10 +150,17 @@ section {
 #professional-challenges {
     text-align: center;
     width: 800px;
-    
+
 }
 
 div {
     display: block;
     unicode-bidi: isolate;
+}
+
+footer {
+    padding: 60px 0px;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid #33A8DB80;
 }
