@@ -12,19 +12,18 @@ const state = {
        gameVelocity: 1000,
        hitPosition: 0, 
        result: 0,
-       corretTime: 60,
+       curretTime: 60,
     },
 };
-
 function countDown() {
-    state.values.corretTime --;
-    state.view.timeleft.textContent = state.values.corretTime;  
+    state.values.curretTime--;
+    state.view.timeleft.textContent = state.values.curretTime;
+      
+     if (state.values.curretTime <0) {
+        alert("Gamer Over seu resultado foi:" +state.values.result);
+     }
 
-    if (state.values.curretTime <0) {
-        alert("Game Over! O seu resultado foi:" + state.values.values.result);
-    }
 }
-
 function randomSqare() {
 state.view.squares.forEach((square) => {
     square.classList.remove("enemy");
