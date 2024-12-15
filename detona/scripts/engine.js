@@ -14,12 +14,18 @@ const state = {
        result: 0,
        curretTime: 60,
     },
+    actions: {
+        timeId: setInterval(randomSqare,1000),
+        countDownTimeid: setInterval(countDown, 1000),
+    },
 };
 function countDown() {
     state.values.curretTime--;
     state.view.timeleft.textContent = state.values.curretTime;
-      
+
      if (state.values.curretTime <0) {
+        clearInterval(state.actions.countDownTimeid)
+        clearInterval(state.actions.timeId)
         alert("Gamer Over seu resultado foi:" +state.values.result);
      }
 
