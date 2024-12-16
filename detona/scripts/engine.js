@@ -32,6 +32,7 @@ function countDown() {
 }
 
 function playSound() {
+    audio.volume = 0,2;
     let audio = new Audio("./src/Audio/hit.m4a");
     audio.play();
 
