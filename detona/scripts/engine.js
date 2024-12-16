@@ -30,6 +30,13 @@ function countDown() {
      }
 
 }
+
+function playSound() {
+    let audio = new Audio("./src/Audio/hit.m4a");
+    audio.play();
+
+    
+}
 function randomSqare() {
 state.view.squares.forEach((square) => {
     square.classList.remove("enemy");
@@ -52,6 +59,7 @@ if (square.id === state.values.hitPosition) {
     state.values.result++
     state.view.score.textContent = state.values.result;
     state.values.hitPosition = null;
+    playSound();
 }
     });
 }); 
